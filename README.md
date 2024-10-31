@@ -12,6 +12,7 @@
 
 [![Community Forum][forum-shield]][forum]
 
+
 **This component will set up the following notifier.**
 
 
@@ -22,7 +23,7 @@
 
 1. Nextcloud server
 3. Install this Nextcloud application from the store: https://apps.nextcloud.com/apps/uppush
-4. App on mobile device:
+4. App on mobile device: https://codeberg.org/NextPush/nextpush-android
 5. Add notification channel 
 
 ### Manual
@@ -46,7 +47,7 @@ action:
     - action: notify.nextpush
       metadata: {}
       data:
-        target: <the channel ID>
+        target: <the notificaton channel ID>
         title: Door
         message: was closed
 
