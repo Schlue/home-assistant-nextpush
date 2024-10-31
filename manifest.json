@@ -1,0 +1,9 @@
+{
+  "domain": "nextpush",
+  "name": "NextPush",
+  "codeowners": ["@Schlue"],
+  "dependencies": ["http"],
+  "documentation": "https://www.home-assistant.io/integrations/nextpush",
+  "iot_class": "cloud_push",
+  "version": "0.0.3"
+}
